@@ -1,0 +1,149 @@
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    background-color: black;
+        
+}
+
+.header img{
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+
+
+.header .nav p{
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+
+}
+
+.header .nav p a{
+    color: seashell;
+}
+
+.main{
+    position: relative;
+    top: 70px;
+}
+
+.mission{
+    display: flex;
+    background-image: url(./img-mission-background.jpg);
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mission .text{
+    background-color: black;
+
+}
+
+.mission .text h2{
+    
+    width: 100%;
+    
+}
+.mission .text h4{
+    width: 100%;
+   
+}
+
+.month{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month .item{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.month .item img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.locations{
+    
+    height: 500px;
+    width: 1200px;
+    background-image: url(./img-locations-background.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+}
+.locations h2{
+    padding-top: 80px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locations .location{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.locations .location .place{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+    margin: 0 20px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.footer h2{
+    margin-top: 5px;
+}
+
+#copyright{
+    float: left;
+    margin-left: 20px;
+}
